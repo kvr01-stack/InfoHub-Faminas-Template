@@ -10,9 +10,9 @@
        Ajuste a tag <title> e a <meta description> para o nome do seu setor.
        Exemplo: "Achados e Perdidos — InfoHub FAMINAS"
        ==================================================================== -->
-  <title>Setor: [Revista Científica da FAMINAS] — InfoHub FAMINAS</title>
+  <title>Revista Científica da FAMINAS — InfoHub FAMINAS</title>
   <meta name="description"
-    content="Canal de autoatendimento institucional desenvolvido pelos discentes de Análise e Desenvolvimento de Sistemas (ADS) na disciplina de Engenharia de Software da FAMINAS." />
+    content="Como enviar um artigo para a Revista Científica da FAMINAS: passo a passo, prazos, normas, checklists e dúvidas frequentes." />
 
   <link rel="icon" type="image/png" href="./assets/images/logo-faminas.png" />
 
@@ -84,13 +84,14 @@
 
         <!-- [EDITÁVEL]: Nome do Setor -->
         <h1 id="hero-heading" class="hero-title">
-          Setor: <span>[Revista Científica da FAMINAS]</span>
+          Revista <span>Científica da FAMINAS</span>
         </h1>
 
         <!-- [EDITÁVEL]: Descrição e Propósito do Setor apurados na entrevista -->
         <p class="hero-description">
-          Canal unificado de autoatendimento, mapeamento de processos oficiais, orientações normativas e canais de contato homologados junto à coordenação e gestão setorial da FAMINAS.
+          Você já fez um trabalho acadêmico e quer que mais gente leia? A revista da FAMINAS publica artigos de todas as áreas. Aqui você vê como enviar o seu, passo a passo, e confere tudo antes mesmo de enviar.
         </p>
+
 
         <div class="hero-badges-group" aria-label="Informações do autoatendimento">
           <div class="hero-badge-item">
@@ -117,143 +118,75 @@
          REQUISITO: Utilize HTML5 semântico (section, article, div, ul, details).
          Para criar estilos novos, edite o arquivo "css/custom.css".
          ==================================================================== -->
-    <section id="features" class="sector-content-section" aria-labelledby="sector-content-heading">
+    <section id="features" class="sector-content-section" aria-labelledby="sobre-titulo">
       <div class="container">
-        
-        <!-- Cabeçalho da Seção Central -->
-        <div class="sector-section-header">
-          <div class="sector-section-tag">
-            <span class="material-symbols-outlined" aria-hidden="true">help_center</span>
-            <span>Guia Prático e Procedimentos</span>
-          </div>
-          <h2 id="sector-content-heading" class="sector-section-title">
-            Como Podemos Ajudar Você Hoje?
-          </h2>
-          <p class="sector-section-subtitle">
-            Consulte as principais solicitações, prazos e canais de atendimento direto mapeados pela equipe discente.
-          </p>
+
+        <section class="sector-block about-panel" aria-labelledby="sobre-titulo">
+          <h2 id="sobre-titulo" class="block-title">Revista Científica da FAMINAS</h2>
+          <p class="block-lead">A Revista Científica Online da FAMINAS é a publicação de artigos científicos do Centro Universitário FAMINAS, de Muriaé (MG). Ela reúne artigos acadêmicos inéditos, de todas as áreas do conhecimento, e cada um passa por uma avaliação antes de ser publicado.</p>
+          <p class="block-lead">Para ler, é só entrar: o acesso é gratuito. E se você quer publicar, a revista recebe artigos o ano todo, sem data-limite.</p>
+          <ul class="info-pills">
+            <li><span class="material-symbols-outlined" aria-hidden="true">lock_open</span> Acesso gratuito</li>
+            <li><span class="material-symbols-outlined" aria-hidden="true">hub</span> Todas as áreas</li>
+            <li><span class="material-symbols-outlined" aria-hidden="true">visibility_off</span> Avaliação duplo-cega</li>
+          </ul>
+          <div class="action-row"><a href="#" class="btn btn-blue" data-link="ojs"><span class="material-symbols-outlined" aria-hidden="true">open_in_new</span>Ir para a revista</a></div>
+        </section>
+
+        <div class="sector-section-header intro-header">
+          <h2 class="sector-section-title">Quer publicar na revista? Comece por aqui</h2>
+          <p class="sector-section-subtitle">Veja o caminho do cadastro até o envio do seu artigo.</p>
         </div>
 
-        <!-- EXEMPLO DE BLOCO 1: Grid de Tópicos / Serviços Frequentes -->
         <div class="sector-grid">
-          <article class="sector-card">
-            <div class="sector-card-icon" aria-hidden="true">
-              <span class="material-symbols-outlined">assignment</span>
-            </div>
-            <h3 class="sector-card-title">Orientações e Normas</h3>
-            <p class="sector-card-text">
-              Consulte a regulamentação oficial, formulários obrigatórios e o passo a passo para abertura formal de chamados.
-            </p>
-            <a href="#fluxo" class="btn btn-outline-light" style="color: var(--color-primary-navy) !important; border-color: var(--color-border);">
-              Ver Passo a Passo
-            </a>
-          </article>
-
-          <article class="sector-card">
-            <div class="sector-card-icon" aria-hidden="true">
-              <span class="material-symbols-outlined">event_available</span>
-            </div>
-            <h3 class="sector-card-title">Prazos e Calendário</h3>
-            <p class="sector-card-text">
-              Fique atento às datas-limite para envio de requerimentos, renovações e homologação de documentos institucionais.
-            </p>
-            <a href="#prazos" class="btn btn-outline-light" style="color: var(--color-primary-navy) !important; border-color: var(--color-border);">
-              Consultar Datas
-            </a>
-          </article>
-
-          <article class="sector-card">
-            <div class="sector-card-icon" aria-hidden="true">
-              <span class="material-symbols-outlined">contact_phone</span>
-            </div>
-            <h3 class="sector-card-title">Canais de Atendimento</h3>
-            <p class="sector-card-text">
-              Localização física no campus, horários de funcionamento presencial, telefone, e-mail institucional e WhatsApp oficial.
-            </p>
-            <a href="#contato" class="btn btn-outline-light" style="color: var(--color-primary-navy) !important; border-color: var(--color-border);">
-              Ver Contatos
-            </a>
-          </article>
+          <article class="sector-card"><div class="sector-card-icon" aria-hidden="true"><span class="material-symbols-outlined" aria-hidden="true">edit_document</span></div><h3 class="sector-card-title">Como submeter</h3><p class="sector-card-text">São 6 passos, feitos direto no site da revista.</p><a href="#fluxo" class="btn btn-outline-dark">Ver passo a passo</a></article>
+          <article class="sector-card"><div class="sector-card-icon" aria-hidden="true"><span class="material-symbols-outlined" aria-hidden="true">event_available</span></div><h3 class="sector-card-title">Prazos</h3><p class="sector-card-text">Sem data-limite. Veja quanto tempo a avaliação costuma levar.</p><a href="#prazos" class="btn btn-outline-dark">Consultar prazos</a></article>
+          <article class="sector-card"><div class="sector-card-icon" aria-hidden="true"><span class="material-symbols-outlined" aria-hidden="true">fact_check</span></div><h3 class="sector-card-title">Checklists</h3><p class="sector-card-text">Confira seu artigo e as normas antes de enviar.</p><a href="#checklist" class="btn btn-outline-dark">Conferir meu artigo</a></article>
         </div>
 
-        <!-- EXEMPLO DE BLOCO 2: Fluxo Passo a Passo -->
-        <div id="fluxo" style="margin-top: 3rem; background: var(--color-bg-card); padding: 2rem; border-radius: var(--radius-lg); border: 1px solid var(--color-border);">
-          <h3 style="font-size: 1.35rem; color: var(--color-primary-navy); margin-bottom: 0.5rem;">
-            Passo a Passo do Processo Setorial
-          </h3>
-          <p style="color: var(--color-text-muted); font-size: 0.95rem; margin-bottom: 1.5rem;">
-            Siga as etapas abaixo para protocolar ou resolver sua demanda com rapidez:
-          </p>
+        <section id="fluxo" class="sector-block panel" aria-labelledby="fluxo-titulo">
+          <h3 id="fluxo-titulo" class="block-title">Passo a passo</h3>
+          <p class="block-lead">O envio é feito direto no site da revista: você cria uma conta e acompanha tudo por lá. Não envie por e-mail nem pelo Portal do Aluno.</p>
+          <div class="notice" role="note"><span class="material-symbols-outlined" aria-hidden="true">info</span><p><strong>Antes de tudo:</strong> crie seu cadastro e faça login no site da revista.</p></div>
+          <ol class="process-steps-list"><li class="process-step-item"><span class="step-number">1</span><div class="step-content"><strong>Iniciar a submissão</strong><p>Entre com seu login e escolha <mark class="hl">Nova submissão</mark>. Depois, marque que aceita as condições de envio.</p></div></li><li class="process-step-item is-key"><span class="step-number">2</span><div class="step-content"><strong>Enviar o arquivo do artigo</strong><p>Escreva no template da revista e <mark class="hl">remova do arquivo qualquer identificação dos autores</mark>. Formato do arquivo: <mark class="hl">Word</mark>, igual ao do template.</p><div class="step-actions"><a href="#" class="btn btn-blue btn-sm" data-link="template"><span class="material-symbols-outlined" aria-hidden="true">download</span>Baixar o template</a></div><p class="hint-box"><strong>O que é template?</strong> É um arquivo modelo, já com a formatação da revista (fonte, margens e títulos). Você escreve nele em vez de formatar tudo do zero.</p></div></li><li class="process-step-item"><span class="step-number">3</span><div class="step-content"><strong>Preencher os dados do artigo</strong><p>Informe título, resumo e dados dos autores. Esses dados vão <mark class="hl">separados do arquivo</mark>: assim, quem avalia não sabe quem escreveu (avaliação duplo-cega).</p><div class="step-actions"><a href="#" class="btn btn-outline-dark btn-sm" data-link="normas"><span class="material-symbols-outlined" aria-hidden="true">menu_book</span>Normas técnico-editoriais</a></div></div></li><li class="process-step-item"><span class="step-number">4</span><div class="step-content"><strong>Anexar os documentos exigidos</strong><p>Se a pesquisa envolve seres humanos, animais ou materiais radioativos, é preciso anexar a <mark class="hl">aprovação do Comitê de Ética</mark>.</p></div></li><li class="process-step-item"><span class="step-number">5</span><div class="step-content"><strong>Conferir com os checklists</strong><p>Antes de enviar, desça até os checklists e veja se o seu arquivo segue todas as orientações.</p><div class="step-actions"><a href="#checklist" class="btn btn-outline-dark btn-sm"><span class="material-symbols-outlined" aria-hidden="true">fact_check</span>Ir para os checklists</a></div></div></li><li class="process-step-item"><span class="step-number">6</span><div class="step-content"><strong>Confirmar e acompanhar</strong><p>Revise tudo, finalize o envio e acompanhe o andamento pelo seu login. <mark class="hl">A avaliação não tem prazo oficial</mark>: veja a seção Prazos.</p></div></li></ol>
+        </section>
 
-          <ol class="process-steps-list">
-            <li class="process-step-item">
-              <span class="step-number">1</span>
-              <div class="step-content">
-                <strong>Reunir a Documentação Necessária</strong>
-                <p>Verifique com antecedência os comprovantes exigidos e tenha em mãos seu número de matrícula institucional.</p>
-              </div>
-            </li>
-            <li class="process-step-item">
-              <span class="step-number">2</span>
-              <div class="step-content">
-                <strong>Protocolar o Requerimento</strong>
-                <p>Abra o requerimento pelo portal acadêmico ou compareça presencialmente ao setor nos horários indicados.</p>
-              </div>
-            </li>
-            <li class="process-step-item">
-              <span class="step-number">3</span>
-              <div class="step-content">
-                <strong>Acompanhar o Parecer e Retirada</strong>
-                <p>Acompanhe o status do chamado e receba a confirmação ou retirada do documento protocolado.</p>
-              </div>
-            </li>
-          </ol>
-        </div>
+        <section id="checklist" class="sector-block panel" aria-labelledby="check-titulo">
+          <h3 id="check-titulo" class="block-title">Meu artigo está pronto para enviar?</h3>
+          <p class="block-lead">Marque o que você já conferiu e veja a barra encher. Nada é enviado nem guardado.</p>
+          <div class="progress" role="progressbar" aria-label="Itens conferidos" aria-valuemin="0" aria-valuemax="10" aria-valuenow="0"><div id="check-bar" class="progress-bar"></div></div>
+          <p id="check-msg" class="check-msg" aria-live="polite"></p>
+          <div class="check-group"><h4 class="group-title">Sobre o seu artigo <span class="group-count"></span></h4><ul class="checklist"><li><label class="check-item"><input type="checkbox" /> <span>Já criei meu cadastro e login no site da revista.</span></label></li><li><label class="check-item"><input type="checkbox" /> <span>O artigo é original e inédito, nunca publicado em outro lugar.</span></label></li><li><label class="check-item"><input type="checkbox" /> <span>O texto não tem plágio.</span></label></li><li><label class="check-item"><input type="checkbox" /> <span>O arquivo não identifica os autores, que ficam só nos dados do envio.</span></label></li><li><label class="check-item"><input type="checkbox" /> <span>Se a pesquisa envolve seres humanos, animais ou materiais radioativos, tenho a aprovação do Comitê de Ética.</span></label></li></ul></div><div class="check-group"><h4 class="group-title">Normas técnico-editoriais <span class="group-count"></span></h4><ul class="checklist"><li><label class="check-item"><input type="checkbox" /> <span>Escrevi o artigo no template de submissão da revista.</span></label></li><li><label class="check-item"><input type="checkbox" /> <span>Título, resumo e palavras-chave seguem o padrão das normas.</span></label></li><li><label class="check-item"><input type="checkbox" /> <span>Fonte, margens e espaçamento seguem o que as normas pedem.</span></label></li><li><label class="check-item"><input type="checkbox" /> <span>Citações e referências seguem o padrão das normas.</span></label></li><li><label class="check-item"><input type="checkbox" /> <span>Figuras e tabelas seguem as orientações das normas.</span></label></li></ul></div>
+        </section>
 
-        <!-- EXEMPLO DE BLOCO 3: Perguntas Frequentes (FAQ) -->
-        <div style="margin-top: 3rem;">
-          <h3 style="font-size: 1.35rem; color: var(--color-primary-navy); margin-bottom: 1rem;">
-            Dúvidas Frequentes do Setor
-          </h3>
-          <div class="faq-accordion">
-            <details class="faq-item">
-              <summary class="faq-summary">
-                <span>Qual é o prazo médio de resposta para solicitações deste setor?</span>
-                <span class="material-symbols-outlined" aria-hidden="true">expand_more</span>
-              </summary>
-              <div class="faq-content">
-                O prazo de análise institucional varia entre 2 a 5 dias úteis, dependendo da complexidade do requerimento e do calendário acadêmico vigente.
-              </div>
-            </details>
-            <details class="faq-item">
-              <summary class="faq-summary">
-                <span>O atendimento presencial exige agendamento prévio?</span>
-                <span class="material-symbols-outlined" aria-hidden="true">expand_more</span>
-              </summary>
-              <div class="faq-content">
-                Para a maioria dos serviços o atendimento é por ordem de chegada na recepção do setor. Em períodos de pico de matrícula ou eventos especiais, recomenda-se verificar aviso oficial.
-              </div>
-            </details>
+        <section id="prazos" class="sector-block" aria-labelledby="prazos-titulo">
+          <h3 id="prazos-titulo" class="block-title">Prazos</h3>
+          <div class="sector-grid two-col">
+            <article class="sector-card card-ok"><span class="badge-pill badge-ok">Fluxo contínuo</span><h4 class="sector-card-title">Envio o ano todo</h4><p class="sector-card-text">Não existe data-limite. Envie quando o artigo estiver pronto.</p></article>
+            <article class="sector-card card-warn"><span class="badge-pill badge-warn">Estimativa</span><h4 class="sector-card-title">De 3,5 a 8 meses até o aceite</h4><p class="sector-card-text">A revista não divulga prazo oficial. Esse intervalo vem de artigos já publicados e varia de caso a caso.</p></article>
           </div>
-        </div>
+        </section>
 
-        <!-- EXEMPLO DE BLOCO 4: Banner de Contato Oficial -->
+        <section id="faq" class="sector-block" aria-labelledby="faq-titulo">
+          <h3 id="faq-titulo" class="block-title">Dúvidas frequentes</h3>
+          <label class="faq-search"><span class="material-symbols-outlined" aria-hidden="true">search</span><input id="faq-search" type="search" placeholder="Buscar uma dúvida, por exemplo: prazo" aria-label="Buscar nas dúvidas frequentes" /></label>
+          <div class="faq-accordion"><details class="faq-item"><summary class="faq-summary"><span>Posso enviar o artigo por e-mail?</span><span class="material-symbols-outlined" aria-hidden="true">expand_more</span></summary><div class="faq-content">Não. O envio é feito somente pelo site da revista, com cadastro e login.</div></details><details class="faq-item"><summary class="faq-summary"><span>Existe data-limite para enviar?</span><span class="material-symbols-outlined" aria-hidden="true">expand_more</span></summary><div class="faq-content">Não. A revista recebe artigos o ano todo.</div></details><details class="faq-item"><summary class="faq-summary"><span>Quanto tempo leva a avaliação?</span><span class="material-symbols-outlined" aria-hidden="true">expand_more</span></summary><div class="faq-content">Não há prazo oficial. Pelos artigos já publicados, o intervalo até o aceite ficou entre 3,5 e 8 meses.</div></details><details class="faq-item"><summary class="faq-summary"><span>Onde baixo o template do artigo?</span><span class="material-symbols-outlined" aria-hidden="true">expand_more</span></summary><div class="faq-content">No site da revista, na página Submissões, no item Arquivos Template para Submissão. Você também tem o botão no passo 2.</div></details><details class="faq-item"><summary class="faq-summary"><span>Preciso de aprovação do Comitê de Ética?</span><span class="material-symbols-outlined" aria-hidden="true">expand_more</span></summary><div class="faq-content">Em pesquisas com seres humanos, animais ou materiais radioativos, pode ser necessário apresentar a aprovação do Comitê de Ética em Pesquisa.</div></details><details class="faq-item"><summary class="faq-summary"><span>Por que um artigo pode ser recusado?</span><span class="material-symbols-outlined" aria-hidden="true">expand_more</span></summary><div class="faq-content">A revista não aponta um motivo principal. O essencial é o artigo ser original, inédito e sem plágio, seguir as normas e trazer os documentos exigidos.</div></details><details class="faq-item"><summary class="faq-summary"><span>Onde posso pedir ajuda?</span><span class="material-symbols-outlined" aria-hidden="true">expand_more</span></summary><div class="faq-content"><p>Escolha o canal que for mais fácil para você:</p><ul class="help-list"><li><span class="material-symbols-outlined" aria-hidden="true">apartment</span><span><strong>CAA presencial:</strong> Central de Atendimento ao Aluno, no campus da FAMINAS Muriaé.</span></li><li><span class="material-symbols-outlined" aria-hidden="true">chat</span><a href="#" class="btn btn-outline-dark btn-sm" data-link="whatsapp">WhatsApp da CAA</a></li><li><span class="material-symbols-outlined" aria-hidden="true">mail</span><a href="mailto:caa.mre@faminas.edu.br">caa.mre@faminas.edu.br</a></li><li><span class="material-symbols-outlined" aria-hidden="true">school</span><a href="#" class="btn btn-outline-dark btn-sm" data-link="portal">Portal do Aluno</a></li></ul></div></details></div>
+          <p id="faq-empty" class="faq-empty" hidden>Nenhuma dúvida encontrada. Tente outra palavra ou veja Onde posso pedir ajuda?</p>
+        </section>
+
         <div id="contato" class="contact-banner">
-          <div class="contact-banner-meta">
-            <h3>Precisa de Atendimento com a Equipe do Setor?</h3>
-            <p>Atendimento presencial no campus FAMINAS • Segunda a Sexta: 08h às 21h</p>
-          </div>
+          <div class="contact-banner-meta"><h3>Ainda com dúvida?</h3><p>Estes são contatos gerais da FAMINAS Muriaé e da Central de Atendimento ao Aluno (CAA). Não são canais exclusivos da revista.</p></div>
           <div class="contact-banner-actions">
-            <a href="mailto:atendimento@faminas.edu.br" class="btn btn-outline-light">
-              <span class="material-symbols-outlined" aria-hidden="true">mail</span>
-              <span>Enviar E-mail</span>
-            </a>
-            <a href="tel:+553237297000" class="btn btn-primary-highlight">
-              <span class="material-symbols-outlined" aria-hidden="true">call</span>
-              <span>Ligar para o Setor</span>
-            </a>
+            <a href="mailto:caa.mre@faminas.edu.br" class="btn btn-outline-light"><span class="material-symbols-outlined" aria-hidden="true">mail</span><span>E-mail da CAA</span></a>
+            <a href="tel:+553237297500" class="btn btn-primary-highlight"><span class="material-symbols-outlined" aria-hidden="true">call</span><span>(32) 3729-7500</span></a>
           </div>
         </div>
+
+        <section id="autores" class="sector-block" aria-labelledby="autores-titulo">
+          <h3 id="autores-titulo" class="block-title">Quem fez esta página</h3>
+          <p class="block-lead">Equipe do Grupo 3, curso de Análise e Desenvolvimento de Sistemas.</p>
+          <div class="authors-grid"><article class="author-card"><div class="author-head"><span class="author-avatar" aria-hidden="true">KL</span><h4>Kaíque Vilela Rocha Silva Leopoldino</h4></div><div class="author-links"><a href="https://github.com/kvr01-stack" target="_blank" rel="noopener noreferrer"><span class="material-symbols-outlined" aria-hidden="true">code</span>GitHub</a><a href="#" class="link-pending" aria-disabled="true"><span class="material-symbols-outlined" aria-hidden="true">work</span>LinkedIn <small>(em breve)</small></a><a href="https://www.instagram.com/kaiqueVilela01/" target="_blank" rel="noopener noreferrer"><span class="material-symbols-outlined" aria-hidden="true">photo_camera</span>Instagram</a></div></article><article class="author-card"><div class="author-head"><span class="author-avatar" aria-hidden="true">JO</span><h4>João Alfeu Moreira de Oliveira</h4></div><div class="author-links"><a href="#" class="link-pending" aria-disabled="true"><span class="material-symbols-outlined" aria-hidden="true">code</span>GitHub <small>(em breve)</small></a><a href="#" class="link-pending" aria-disabled="true"><span class="material-symbols-outlined" aria-hidden="true">work</span>LinkedIn <small>(em breve)</small></a><a href="https://www.instagram.com/alfeu_joao/" target="_blank" rel="noopener noreferrer"><span class="material-symbols-outlined" aria-hidden="true">photo_camera</span>Instagram</a></div></article><article class="author-card"><div class="author-head"><span class="author-avatar" aria-hidden="true">JS</span><h4>Jeferson Gonçalves da Silva</h4></div><div class="author-links"><a href="#" class="link-pending" aria-disabled="true"><span class="material-symbols-outlined" aria-hidden="true">code</span>GitHub <small>(em breve)</small></a><a href="#" class="link-pending" aria-disabled="true"><span class="material-symbols-outlined" aria-hidden="true">work</span>LinkedIn <small>(em breve)</small></a><a href="https://www.instagram.com/jeferson.oficial16/" target="_blank" rel="noopener noreferrer"><span class="material-symbols-outlined" aria-hidden="true">photo_camera</span>Instagram</a></div></article><article class="author-card"><div class="author-head"><span class="author-avatar" aria-hidden="true">AM</span><h4>Arthur da Silva Miranda</h4></div><div class="author-links"><a href="#" class="link-pending" aria-disabled="true"><span class="material-symbols-outlined" aria-hidden="true">code</span>GitHub <small>(em breve)</small></a><a href="#" class="link-pending" aria-disabled="true"><span class="material-symbols-outlined" aria-hidden="true">work</span>LinkedIn <small>(em breve)</small></a><a href="#" class="link-pending" aria-disabled="true"><span class="material-symbols-outlined" aria-hidden="true">photo_camera</span>Instagram <small>(em breve)</small></a></div></article></div>
+        </section>
 
       </div>
     </section>
