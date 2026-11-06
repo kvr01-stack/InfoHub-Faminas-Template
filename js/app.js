@@ -24,13 +24,20 @@ document.addEventListener('DOMContentLoaded', () => {
    REVISTA CIENTÍFICA — LÓGICA DO GRUPO 3
    ========================================================================== */
 document.addEventListener('DOMContentLoaded', () => {
-  // Links oficiais da revista (site fora do ar na entrega). Preencher quando voltar.
+  // Links oficiais da revista. Todos preenchidos.
+  const BASE = 'https://periodicos.faminas.edu.br/index.php/RCFaminas';
   const LINKS = {
-    ojs: '',      // TODO: endereço do sistema OJS da revista
-    normas: '',   // TODO: Normas Técnico-Editoriais para Submissão de Artigos
-    template: '', // TODO: Arquivos Template para Submissão
-    whatsapp: '', // TODO: link do WhatsApp da CAA (formato https://wa.me/55DDDNUMERO)
-    portal: '',   // TODO: link do Portal do Aluno
+    ojs: BASE,                                  // página inicial da revista
+    cadastro: `${BASE}/user/register`,
+    acesso: `${BASE}/login`,
+    normas: `${BASE}/about/submissions`,        // Condições e Normas Técnico-Editoriais
+    template: `${BASE}/libraryFiles/downloadPublic/23`,
+    autores: `${BASE}/libraryFiles/downloadPublic/24`,
+    conflito: `${BASE}/libraryFiles/downloadPublic/25`,
+    ia: `${BASE}/libraryFiles/downloadPublic/30`,
+    contatoRevista: `${BASE}/about/contact`,
+    whatsapp: 'https://wa.me/553237297500', // WhatsApp da CAA, (32) 3729-7500
+    portal: 'https://portal.faminas.edu.br/FrameHTML/web/app/edu/PortalEducacional/login/', // Portal do Aluno
   };
 
   document.querySelectorAll('[data-link]').forEach((a) => {
